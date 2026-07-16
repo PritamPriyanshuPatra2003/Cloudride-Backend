@@ -6,6 +6,12 @@ from app.schemas.user import (
     UserLogin,
     UserResponse,
 )
+from app.schemas.schedule import (
+    ScheduleCreate,
+    ScheduleResponse,
+    ScheduleUpdate,
+)
+
 
 __all__ = [
     "UserCreate",
@@ -15,4 +21,7 @@ __all__ = [
     "RouteCreate",
     "RouteUpdate",
     "RouteResponse",
+    "ScheduleCreate",
+    "ScheduleUpdate",
+    "ScheduleResponse",
 ]
