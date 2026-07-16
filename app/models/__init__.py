@@ -1,3 +1,4 @@
+from app.models.booking import Booking
 from app.models.bus import Bus
 from app.models.route import Route
 from app.models.schedule import Schedule
@@ -8,4 +9,5 @@ __all__ = [
     "Bus",
     "Route",
     "Schedule",
+    "Booking",
 ]

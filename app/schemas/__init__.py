@@ -1,5 +1,7 @@
 from app.schemas.bus import BusCreate, BusResponse, BusUpdate
 from app.schemas.route import RouteCreate, RouteResponse, RouteUpdate
+from app.schemas.booking import BookingCreate, BookingResponse
+
 from app.schemas.user import (
     TokenResponse,
     UserCreate,
@@ -24,4 +26,6 @@ __all__ = [
     "ScheduleCreate",
     "ScheduleUpdate",
     "ScheduleResponse",
+    "BookingCreate",
+    "BookingResponse",
 ]
